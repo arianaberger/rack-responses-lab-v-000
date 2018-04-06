@@ -5,10 +5,10 @@ class Application
     current_time = Time.now.to_s
     time = current_time[11,3].to_i
 
-    if time >= 12
-      resp.write "Good Afternoon!"
+    if time > 12
+      resp.write "Good Afternoon!\n"
     else
-      resp.write "Good Morning!"
+      resp.write "Good Morning!\n"
     end
 
   end
