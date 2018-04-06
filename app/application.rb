@@ -10,7 +10,6 @@ class Application
     else
       resp.write "Good Morning!"
     end
-    binding.pry
 
   end
 
